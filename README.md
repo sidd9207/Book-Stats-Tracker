@@ -1,5 +1,13 @@
-#CS348 Final Project
-####This application is a Book Stats Tracker application
-This application is pretty simple. The user can add books, authors, and genres to their tracker, along with their info. They can then generate reports on book stats such as total copies sold or toal revenue generated.
+# CS348 Final Project- Book Stats Tracker
 
-To run this application locally, make sure you have all the Python packages listed in requirements.txt, and all the packages in frontend/package.json
+### Overview
+This application allows users to enter information about Books, and generate reports on books for statistics.
+
+### Features
+- Allows users to add, modify, and delete Books, Authors, and Genres.
+- Allows users to filter books by criteria such as author, genre, price, and release year
+- Allows users to view statistics of books such as total revenue generated and total copies sold based on user-specified criteria
+
+### Running Application Locally
+To run this application locally, make sure you have installed all the Python packages listed in requirements.txt, and all the packages in frontend/package.json.
+
