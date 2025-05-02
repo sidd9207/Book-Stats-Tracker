@@ -1,0 +1,41 @@
+# === Python ===
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.env
+.venv/
+venv/
+env/
+
+# === Flask/Misc ===
+instance/
+.webassets-cache
+
+# === macOS ===
+.DS_Store
+
+# === Node / React (frontend) ===
+node_modules/
+dist/
+build/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# === Lock files (optional - usually you keep these for reproducibility) ===
+# frontend/package-lock.json
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Misc ===
+*.bak
+*~
+*.swp
